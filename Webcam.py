@@ -1,23 +1,4 @@
-"""
-    A component of ScreenRecorder that allows one to use ffmpeg.exe to capture
-    video from a DirectShow device.
-    Copyright (C) 2018 coderman64
 
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-"""
-"""ffmpeg.exe -i master_video.mp4 -vf "movie=smaller_inner_video.mp4, scale=800:-1 [inner]; 
-[in][inner] overlay=70:70 [out]" completed.mp4"""
 
 import subprocess
 from threading import Thread
