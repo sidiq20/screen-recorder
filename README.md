@@ -27,7 +27,7 @@ Webpage:
 ## Download
 You can download the latest version of the screen recorder here:
 
-➡ **[Download screenRecorder.exe](https://github.com/sidiq20/screen-recorder/raw/main/screenRecorder.exe)**
+➡ **[Download screenRecorder.exe](https://github.com/sidiq20/screen-recorder/screenRecorder.exe)**
 
 Make sure to also install the required dependencies:
 And download `ffmpeg.exe` from [here](https://ffmpeg.org/download.html#build-windows).
